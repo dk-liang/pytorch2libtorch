@@ -8,7 +8,7 @@ import torch.nn.functional as F
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
-path ='./model/model_original.pt'
+path ='./model/model.pt'
 w = 1280
 h = 720
 
