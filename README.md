@@ -17,6 +17,8 @@ OpenCV >= 4.0.0 (It means C++ version instead of python.)
 
 ## LibTorch-C++
 Now, we use C++ to inference the transfered model.
+* ``` cp ./pytorch_code/model/model_transfer.pt ./C++_inference/model/```
+
 * ```cd ./C++_inference```
 
 * Download LibTorch from [here](https://pytorch.org/).  
